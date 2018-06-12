@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+
+body {// installing a global font for use throughout our application; 
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled { // if we don't add items, the cursor stays 
+    cursor: default;
+}
+
